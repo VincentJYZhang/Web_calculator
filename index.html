@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <script src='js/main.js' type='text/javascript'></script>
+</head>
+
+<body onkeypress="keyboard();">
+    <div id="calculator">
+        <!--计算器主体框架-->
+        <div class="setting">
+            <!--计算器标头-->
+            <p class="head">Calculator</p>
+        </div>
+        <div class="display">
+            <!--显示界面-->
+            <input type="text" id="exp" class="expression" disabled>
+            <!--表达式区域-->
+            <input type="text" id="ans" class="answer" disabled>
+            <!--答案区域-->
+        </div>
+        <div class="keyboard">
+            <!--键盘-->
+            <ul>
+                <li onclick="model()">
+                    M
+                </li>
+                <li onclick="append('C')">
+                    C
+                </li>
+                <li onclick="append('B')">
+                    B
+                </li>
+                <li onclick="append('/')">
+                    /
+                </li>
+                <li onclick="append(1)">1
+                </li>
+                <li onclick="append(2)">2
+                </li>
+                <li onclick="append(3)">3
+                </li>
+                <li onclick="append('*')">
+                    ×
+                </li>
+                <li onclick="append(4)">4
+                </li>
+                <li onclick="append(5)">5
+                </li>
+                <li onclick="append(6)">6
+                </li>
+                <li onclick="append('-')">
+                    -
+                </li>
+                <li onclick="append(7)">7
+                </li>
+                <li onclick="append(8)">8
+                </li>
+                <li onclick="append(9)">9
+                </li>
+                <li onclick="append('+')">
+                    +
+                </li>
+                <li onclick="append('.')">.
+                </li>
+                <li onclick="append(0)">
+                    0
+                </li>
+                <li onclick="plus_min();">
+                    ±
+                </li>
+                <li onclick="append('=')">
+                    =
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="expand">
+        <ul>
+            <li onclick="Sqrt();">
+                √
+            </li>
+            <li onclick="append('(')">
+                (
+            </li>
+            <li onclick="append(')')">
+                )
+            </li>
+            <li onclick="append('sin(')">
+                sin
+            </li>
+            <li onclick="append('cos(')">
+                cos
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
