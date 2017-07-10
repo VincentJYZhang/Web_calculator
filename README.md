@@ -15,5 +15,5 @@
 
 * 简约的设计
 
-![](./model1.png)
-![](./model2.png)
+![model 1](./model1.png)
+![model 2](./model2.png)
