@@ -1,0 +1,124 @@
+body {
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#calculator {
+    position: relative;
+    border: 2px solid black;
+    width: 320px;
+    height: 590px;
+    top: 20px;
+    margin: 0 auto;
+}
+
+.setting {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    border: 0px solid black;
+    margin: 0 auto;
+}
+
+.head {
+    float: left;
+    margin: 0;
+    padding-left: 17px;
+    line-height: 40px;
+}
+
+.display {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    border: 0px solid black;
+    margin: 0 auto;
+}
+
+.expression {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 93%;
+    height: 70px;
+    border: 0px solid black;
+    margin: 0 auto;
+    text-align: right;
+    font-size: 30px;
+    color: #000;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border: 0;
+    outline: none;
+    background-color: #FFFFFF;
+}
+
+.answer {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 93%;
+    height: 130px;
+    border: 0px solid black;
+    margin: 0 auto;
+    text-align: right;
+    font-size: 50px;
+    color: #000;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border: 0;
+    outline: none;
+    background-color: #FFFFFF;
+}
+
+.keyboard {
+    padding: 0;
+    position: relative;
+    float: right;
+    width: 320px;
+    height: 343px;
+    border: 0px solid black;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    float: left;
+    display: block;
+    width: 80px;
+    height: 68px;
+    line-height: 68px;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: #000;
+    display: block;
+    cursor: pointer;
+}
+
+ul li:hover {
+    color: #000000;
+    background-color: rgb(230, 230, 230);
+}
+
+#expand {
+    position: absolute;
+    border: 0px solid black;
+    width: 80px;
+    height: 340px;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
