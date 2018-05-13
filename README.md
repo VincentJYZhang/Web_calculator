@@ -15,9 +15,10 @@
 
 * 简约的设计
 
+
+Demo: [demo](https://vincentjyzhang.github.io/Web_calculator/)
+
 ![model 1](./model1.png)
 ![model 2](./model2.png)
 
 
-
-Demo: [demo](https://vincentjyzhang.github.io/Web_calculator/l)
