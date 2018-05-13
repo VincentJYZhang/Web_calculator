@@ -20,4 +20,4 @@
 
 
 
-Demo: [demo](./index.html)
+Demo: [demo](https://vincentjyzhang.github.io/Web_calculator/l)
